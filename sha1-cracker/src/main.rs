@@ -37,11 +37,11 @@ for line in reader.lines() {
     ↪
         &hex::encode(sha1::Sha1::digest(common_password.as_bytes())) {
         println!("Password found: {}", &common_password);
-        return Ok(());
+        return Ok(()); // the exit of a successfull Rust program is return Ok(())
         }
     }
 
     println!("password not found in wordlist :(");  
-    Ok(())
+    Ok(()) // unsuccessful program is expressed as Ok(())
 
 }
