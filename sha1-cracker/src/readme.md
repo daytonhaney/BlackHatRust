@@ -2,3 +2,6 @@ $ cargo run -- wordlist.txt 3545436243634436tewtgggr34tgrrty3 <----- arbitrary a
 
 
 
+
+disclaimer
+learning purposes only 
