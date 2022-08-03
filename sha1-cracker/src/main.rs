@@ -16,7 +16,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         println!("sha1_cracker: <wordlist.txt> <sha1_hash>");
         return Ok(());
 }
-// first implimentation of the RAG: Rusts Aquisition as an Initializier
+// first implimentation of the RAH: Rusts Aquisition as an Initializier
 // we do not have to close the file in rust because the file will close when the main cloes
 // ll memory resources are init'd one time , it owns the range in memory and the space it requires for the entire  
 // life cycle of program, no memory leaks and you pay costs upfront
