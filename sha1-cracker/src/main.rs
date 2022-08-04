@@ -19,7 +19,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 // first implimentation of the RAH: Rusts Aquisition as an Initializier
 // we do not have to close the file in rust because the file will close when the main cloes
 // ll memory resources are init'd one time , it owns the range in memory and the space it requires for the entire  
-// life cycle of program, no memory leaks and you pay costs upfront
+// life cycle of program, no memory leaks , but you pay costs upfront with long devemopment process 
 
 let hash_to_crack = args[2].trim();
 
