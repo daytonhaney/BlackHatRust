@@ -1,4 +1,4 @@
-// if my comments don't make sense comment it yourself and send me the update: this is not my code , This is Black Hat Rust with my comments
+
 use sha1::Digest; // calling crates Digest
 use std::{ 
     env, // std env and error for errors, fs to talk to files like nodejs // and io for buffer communication 
