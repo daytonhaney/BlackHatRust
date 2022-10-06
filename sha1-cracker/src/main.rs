@@ -17,11 +17,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         println!("sha1_cracker: <wordlist.txt> <sha1_hash>");
         return Ok(());
 }
-// first implimentation of the RAH: Rusts Aquisition as an Initializier
-// in rust, we do not have to close the file that we create and open wordlist.txt because the file will close when the main cloes , un like C you 
-// must manually close all files that are opened, else: buffer overflow;    
-// all memory resources are init'd only one time , it owns the range in memory and space required for the entire  
-// life cycle of program, no memory leaks , but you pay costs upfront with long devemopment process. 
+
 
 let hash_to_crack = args[2].trim();
 
