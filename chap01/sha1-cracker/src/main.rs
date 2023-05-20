@@ -1,7 +1,7 @@
 
 use sha1::Digest; // calling crates Digest
 use std::{ 
-    env, // std env and error for errors, fs to talk to files like nodejs // and io for buffer communication 
+    env, //
     error::Error,
     fs::File,
     io::{BufRead, BufReader},
